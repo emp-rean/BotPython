@@ -11,7 +11,7 @@ skills = None
 exp = None
 phone = None
 
-bot = telebot.TeleBot('7873777985:AAEQ-tvlYFyjkF4Vhk4YrsTK8AzczAZF6_k')
+bot = telebot.TeleBot('token')
 bot.set_webhook()
 
 con = sqlite3.connect('DataBase.db')
